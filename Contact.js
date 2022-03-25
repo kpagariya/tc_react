@@ -1,15 +1,16 @@
 import React, {Component} from 'react'
-import './App.css';
-import Contact from './components/Contact'
 
-class App extends Component{
-  render() {
-    return (
-      <div className="App">
-            <h1> My Contact Manager </h1>
-            <Contact/>
-      </div>
-    );    
-  }
+class Contact extends Component{
+	render() {
+		return (
+			<div>
+		       	<h3> Rohit Sharma </h3>
+				<ul>
+					<li>Email : rsharma@gmail.com</li>
+					<li>Phone : 988989-9765</li>
+				</ul>
+   	    	</div>
+		);		
+	}
 }
-export default App;
+export default Contact;
